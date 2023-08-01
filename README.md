@@ -11,4 +11,5 @@ Communication contract of my microservice:
    You can recieve the data by using filtered_data = pickle.loads(client_socket.recv(4096))
    The received data contains the filtered data in the format of a list of dict. (e.g. [{'Column1': 'Value1', 'Column2': 'Value2', 'Column3': 'Value3'...}, {}...,])
    
-3. UML sequence diagram![CS361UML](https://github.com/1hito/CS361/assets/96344873/1c12ce0c-8a68-4d82-9262-c0b5f898642f)
+3. UML sequence diagram
+   ![CS361UML](https://github.com/1hito/CS361/assets/96344873/1c12ce0c-8a68-4d82-9262-c0b5f898642f)
